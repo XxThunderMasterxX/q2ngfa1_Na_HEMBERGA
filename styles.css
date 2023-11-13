@@ -1,0 +1,50 @@
+*{
+
+    margin: 0;
+
+}
+
+@media screen and (max-width: 720px){
+    nav{
+        background-color: aqua ;
+    }
+}
+@media screen and (max-width: 640px){
+    nav{
+        background: aquamarine;
+    }
+}
+@media screen and (max-width: 600px) {
+    nav{
+        background-color: blue;
+    }
+}
+@media screen and (max-width: 480px) {
+    nav{
+        background-color: red;
+    }
+}
+
+    
+
+
+.navlinks{
+
+    text-decoration: none;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+section{
+
+    display: flex;
+    border: 1px solid black;
+    margin: auto;
+    height: 85vh;
+    justify-content: s[space-around];
+}
